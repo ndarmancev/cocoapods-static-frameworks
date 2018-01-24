@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['me@stefanpuehringer.com']
   spec.description   = %q{Build static instead of dynamic frameworks.}
   spec.summary       = %q{Build static instead of dynamic frameworks.}
-  spec.homepage      = 'https://github.com/b-ray/cocoapods-static-frameworks'
+  spec.homepage      = 'https://github.com/ndarmancev/cocoapods-static-frameworks'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
@@ -20,6 +20,6 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency 'cocoapods', '1.4.0'
 
-  spec.add_development_dependency 'bundler', '~> 1.4'
+  spec.add_development_dependency 'bundler', '~> 1.3'
   spec.add_development_dependency 'rake'
 end
